@@ -1,0 +1,83 @@
+@media (min-width: 769px) and (max-width: 1170px) {
+  .work .showcase .container .card-item .card {
+    height: 30vh;
+    margin: 1rem 0;
+    /* filter: blur(0); */
+  }
+  .about .showcase .about-info {
+    width: 70%;
+    /* margin: 2vh; */
+    padding: 1vw;
+  }
+}
+@media (max-width: 768px) {
+  .top {
+      height: 130vh;
+    }
+  .top .container-top {
+    margin: 2vh auto;
+  }
+  .about .showcase .about-info {
+    width: 90%;
+  }
+  .about .showcase .about-info h1 {
+    font-size: 7vh;
+  }
+  .about .showcase .about-info p {
+    font-size: 3vh;
+  }
+  .contact .showcase .container .box .two {
+    display: flex;
+    flex-direction: column;
+  }
+  .contact .showcase .container .box .box-item {
+    margin: 0.5rem;
+    width: 90%;
+    justify-content: baseline;
+    text-align: justify;
+  }
+  .contact .showcase .container .box .box-item .item p,
+  .contact .showcase .container .box .box-item .item span {
+    font-size: 4vw;
+  }
+}
+@media (max-width: 500px) {
+  .menu .list li a {
+    font-size: 2.5rem;
+  }
+  .menu .list li a:hover {
+    font-size: 3rem;
+  }
+  .menu .image {
+    transform: translate3d(-100%, 0, 0);
+  }
+  .menu .list {
+    transform: translate3d(100%, 0, 0);
+  }
+  .about .showcase .about-info {
+    width: 90%;
+    /* margin: 2vh; */
+    padding: 1vw;
+  }
+  .about .showcase .about-info h1 {
+    font-size: 5vh;
+  }
+  .about .showcase .about-info p {
+    font-size: 2.4vh;
+  }
+  .work .showcase .container .card-item {
+    display: flex;
+    flex-direction: column;
+    /* margin-top: 20rem; */
+  }
+  .work {
+    height: 150vh;
+  }
+  .work .showcase .container .card-item .card {
+    height: 20vh;
+    margin: 1rem 0;
+    width: 90%;
+    margin: 1rem auto;
+    /* filter: blur(0); */
+  }
+}
